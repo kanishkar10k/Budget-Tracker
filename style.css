@@ -1,0 +1,53 @@
+.sec{
+    max-width: 650px;
+    margin: 120px auto;
+    border: 1px solid black;
+    padding: 0px 30px 60px 30px;
+    background-color: #BB9AB1;
+    border-radius: 10px;
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+}
+#type{
+    width: 25%;
+    height: 20px;
+}
+.nam{
+    margin-left: 40px;
+}
+.amo{
+    margin-left: 235px;
+}
+.sub{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+.del{
+    border-radius: 5px;
+    padding: 4px;
+    background-color: blue;
+    color: white;
+}
+h1{
+    background-color: blueviolet;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+table{
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 2px solid black;
+
+}
+th{
+    background-color: rgb(156, 156, 247);
+}

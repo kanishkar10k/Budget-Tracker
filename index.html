@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./javascript.js"></script>
+</head>
+<body>
+    <div class="sec">
+            <h1>Add a new transaction : </h1>
+                <label for="type">Type :</label>
+                <select id="type">
+                    <option value="" disabled selected>choose any one...</option>
+                    <option value="Income">Income</option>
+                    <option value="Expense">Expense</option>
+                    <option value="Balence">Balance</option>
+                  </select>
+                 <label class="nam">Name :</label>
+                 <input type="text" id="nam"><br><br>
+                 <label class="amo">Amount :</label>
+                 <input type="num" id="amoun"> <br>
+                 <button id="Submit" class="sub" onclick=addTrans()>Add to transactions</button>
+        <table>
+            <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Amount</th>
+                <th>Options</th>
+            </tr> 
+            <tbody id="transaction"></tbody>
+        </table>
+    </div>
+</body>
+</html>
